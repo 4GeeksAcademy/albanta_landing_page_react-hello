@@ -1,12 +1,22 @@
+.principal_developer_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background-color: aquamarine;
+    opacity: 0.8;
+    padding: 1rem;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.principal_developer_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 3rem;
+    flex-direction: row;
+    max-width: 190px;
+    height: 200px;
+    margin: 2rem auto; 
+    position: relative;
+}
