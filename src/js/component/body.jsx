@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 const DeveloperDescription = ({tipoViaje}) => {
 	return (<>
 	<div className="principal_developer_description">
@@ -26,8 +23,8 @@ const Body = () => {
 	return (<>
 		<div className="principal_body">
 			<h2>Una nueva forma de viajar con guías interactivos</h2>
-			<h3>TU VIAJE PERSONALIZADO</h3>
-			<p>Atrévete a viajar libre con un guía que te asesorará en todo momento, con solo abrir tu móvil tu guía completa, paso a paso</p>
+			<h3>TUS VIAJES PERSONALIZADOS</h3>
+			<p>Atrévete a viajar libre con un guía que te asesorará en todo momento, con solo abrir tu dispositivo tu guía completa, paso a paso</p>
 			<div>
 				<DeveloperCard tipoViaje='VIAJES ESPAÑA' />
 				<DeveloperCard tipoViaje='VIAJES EUROPA' />
