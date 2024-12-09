@@ -1,22 +1,5 @@
 import React from "react";
-
-const DeveloperDescription = ({tipoViaje}) => {
-	return (<>
-	<div className="principal_developer_description">
-		<span className="principal_developer_description_name">{tipoViaje}</span>
-	</div>
-	</>)
-}
-
-const DeveloperCard = ({tipoViaje}) => {
-	return (<>
-		<div className="principal_developer_card">
-			<img src="https://thumbs.dreamstime.com/z/esquema-lineal-de-l%C3%ADnea-delgada-del-icono-color-avi%C3%B3n-signo-simple-logotipo-193870116.jpg?w=768"/>
-			<DeveloperDescription tipoViaje={tipoViaje} />
-		</div>
-	
-	</>);
-}
+import DeveloperCard from "./DeveloperCard.jsx"
 
 
 const Body = () => {
